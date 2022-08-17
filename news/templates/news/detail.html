@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+       <style>
+        .www{
+             width: 220px;
+             height: 300px;
+       }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+                <div class="row mb-3">
+                    <div class="col-3">
+                           <img class="www" src="{{ new.photo.url }}"  >
+                    </div>
+                    <div class="col-6">
+                        <a href="#">{{ new.title }} </a>
+                        <p>
+                            {{ new.content }}
+                        </p>
+                    </div>
+                </div>
+</div>
+</body>
+</html>
